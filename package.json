@@ -12,6 +12,7 @@
     "dev": "concurrently \"npm run server\" \"vite\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "homepage": "https://hannadin.github.io/Portfolio-React/",
     "lint": "eslint ."
   },
   "dependencies": {
