@@ -1,16 +1,23 @@
+import feImage from '/src/assets/fe.jpeg';
+import beImage from '/src/assets/be.jpeg';
+import uiImage from '/src/assets/ui.jpeg';
+import uxImage from '/src/assets/ux.jpeg';
+import socialImage from '/src/assets/social.jpeg';
+import customImage from '/src/assets/bgHome.jpeg'; // New image for the 6th card
+
 const Service = () => {
   return (
     <>
-      <div id="service" className="bg-[#34495E] min-h-screen py-12"> {/* Use min-h-screen to ensure it doesn't overflow */}
+      <div id="service" className="bg-[#34495E] min-h-screen py-12">
         <h1 className="flex justify-center text-[#ECF0F1] text-5xl font-semibold mb-8">Services</h1>
         <div className="w-full flex items-center justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4"> {/* Use responsive grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             
-            {/* Card 1 */}
-            <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg"> {/* Set width for smaller screens */}
+            {/* Card 1: Front-End Developing */}
+            <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/src/assets/fe.jpeg"
+                  src={feImage}
                   alt="Front-End Developing"
                   className="object-cover w-full h-full"
                 />
@@ -21,11 +28,11 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
+            {/* Card 2: Back-End Developing */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/src/assets/be.jpeg"
+                  src={beImage}
                   alt="Back-End Developing"
                   className="object-cover w-full h-full"
                 />
@@ -36,11 +43,11 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 3 */}
+            {/* Card 3: UI Designs */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/src/assets/ui.jpeg"
+                  src={uiImage}
                   alt="UI Designs"
                   className="object-cover w-full h-full"
                 />
@@ -51,11 +58,11 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 4 */}
+            {/* Card 4: UX Design */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/src/assets/ux.jpeg"
+                  src={uxImage}
                   alt="UX Design"
                   className="object-cover w-full h-full"
                 />
@@ -66,11 +73,11 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 5 */}
+            {/* Card 5: Social Media Management */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/src/assets/social.jpeg"
+                  src={socialImage}
                   alt="Social Media Management"
                   className="object-cover w-full h-full"
                 />
@@ -81,11 +88,11 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 6 */}
+            {/* Card 6: Custom Solutions */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  src={customImage}
                   alt="Custom Solutions"
                   className="object-cover w-full h-full"
                 />
@@ -95,6 +102,7 @@ const Service = () => {
                 <p className="text-[#ECF0F1] text-sm">Tailoring web solutions to meet your specific needs.</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>
