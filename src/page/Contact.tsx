@@ -1,6 +1,34 @@
+import { useState } from 'react';
+import axios from 'axios'; // Assuming you use axios for API requests
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    try {
+      // Replace with your API endpoint
+      const response = await axios.post('http://localhost:5000/contact', formData);
+      console.log('Form data submitted successfully:', response.data);
+    } catch (error) {
+      console.error('Error submitting the form:', error);
+    }
+  };
+
   return (
-    <div className="w-full h-[calc(100vh-4rem)] flex items-center justify-center bg-[#2C3E50] py-12">
+    <div id="contact" className="w-full h-[calc(100vh-4rem)] flex items-center justify-center bg-[#2C3E50] py-12">
       {/* Outer Container */}
       <div className="bg-white shadow-lg rounded-lg flex max-w-4xl w-full h-[calc(100%-4rem)]">
         {/* Left Side: Contact Info */}
@@ -54,24 +82,33 @@ const Contact = () => {
         <div className="bg-white p-8 w-2/3 rounded-r-lg">
           <h2 className="text-2xl font-bold text-[#2C3E50] mb-6">Get in Touch</h2>
           <p className="text-sm text-gray-600 mb-6">Feel free to drop us a line below!</p>
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleInputChange}
                 className="input input-bordered w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#3B5998]"
               />
             </div>
             <div>
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                value={formData.email}
+                onChange={handleInputChange}
                 className="input input-bordered w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#3B5998]"
               />
             </div>
             <div>
               <textarea
+                name="message"
                 placeholder="Type your message here..."
+                value={formData.message}
+                onChange={handleInputChange}
                 className="textarea textarea-bordered w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#3B5998]"
                 rows={5}
               ></textarea>

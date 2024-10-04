@@ -13,13 +13,13 @@ const Navbar = () => {
         <ul className="menu menu-horizontal flex space-x-8 text-lg text-[#ECF0F1]">
           <li>
             <Link
-              activeClass="active-link" // This class will be applied when the link is active
+              activeClass="active-link"
               to="home"
               spy={true}
               smooth={true}
               offset={-64}
               duration={500}
-              className="cursor-pointer hover:text-[#6D86A1]" // Hover color (light blue-gray)
+              className="cursor-pointer hover:text-[#6D86A1]"
             >
               Home
             </Link>
@@ -68,9 +68,17 @@ const Navbar = () => {
 
       {/* Right side: Button */}
       <div className="flex-none">
-        <button className="btn text-[#ECF0F1] bg-[#1A252F] hover:bg-[#4A6787] btn-neutral">
+        {/* Use Link component from react-scroll for the Contacts button */}
+        <Link
+          to="contact" // The id of your contact section
+          spy={true}
+          smooth={true}
+          offset={-64} // Adjust as needed
+          duration={500}
+          className="btn text-[#ECF0F1] bg-[#1A252F] hover:bg-[#4A6787] btn-neutral cursor-pointer"
+        >
           Contacts
-        </button>
+        </Link>
       </div>
 
       {/* Styling for active links */}
