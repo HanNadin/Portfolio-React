@@ -1,3 +1,5 @@
+import homePhoto from "assets/myPhoto.jpeg"
+
 const Home = () => {
   return (
     <div
@@ -9,7 +11,7 @@ const Home = () => {
 
       <div className="hero-content flex-col lg:flex-row relative z-10 text-white">
         <img
-          src="/assets/myPhoto.jpeg"
+          src={homePhoto}
           className="max-w-72 rounded-lg shadow-2xl object-cover h-auto w-full lg:w-1/3"
           alt="Profile"
         />
