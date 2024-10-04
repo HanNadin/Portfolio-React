@@ -1,7 +1,7 @@
-import instagram from "src/assets/instagram.jpeg"
-import mail from "src/assets/mail-inbox-app.jpeg"
-import whatsapp from "src/assets/whatsapp.jpeg"
-import aboutPhoto from "src/assets/myPhoto2.jpeg"
+import instagram from "assets/instagram.jpeg"
+import mail from "assets/mail-inbox-app.jpeg"
+import whatsapp from "assets/whatsapp.jpeg"
+import aboutPhoto from "assets/myPhoto2.jpeg"
 
 const AboutMe = () => {
   return (
