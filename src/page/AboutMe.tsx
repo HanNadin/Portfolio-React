@@ -1,3 +1,8 @@
+import instagram from "src/assets/instagram.jpeg"
+import mail from "src/assets/mail-inbox-app.jpeg"
+import whatsapp from "src/assets/whatsapp.jpeg"
+import aboutPhoto from "src/assets/myPhoto2.jpeg"
+
 const AboutMe = () => {
   return (
     <>
@@ -37,22 +42,22 @@ const AboutMe = () => {
               <li className="flex space-x-4 items-center py-2">
                 <a href="https://www.instagram.com/nadzz_354?igsh=dTlxbmYydHRnZXE4">
                   <button className="btn btn-ghost opacity-90 w-20">
-                    <img src="src/assets/instagram.jpeg" alt="Instagram" />
+                    <img src={instagram} alt="Instagram" />
                   </button>
                 </a>
                 <button className="btn btn-ghost opacity-90 w-20">
-                  <img src="src/assets/mail-inbox-app.jpeg" alt="Mail" />
+                  <img src={mail} alt="Mail" />
                 </button>
                 <a href="https://wa.me/qr/2SSYSOLYRCFBO1">
                   <button className="btn btn-ghost opacity-90 w-20">
-                    <img src="src/assets/whatsapp.jpeg" alt="Whatsapp" />
+                    <img src={whatsapp} alt="Whatsapp" />
                   </button>
                 </a>
               </li>
             </ul>
           </div>
           <img
-            src="src/assets/myPhoto2.jpeg"
+            src={aboutPhoto}
             className="max-w-sm rounded-lg shadow-2xl"
             alt="Profile"
           />
