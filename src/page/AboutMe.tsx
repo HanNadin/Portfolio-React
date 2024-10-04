@@ -37,22 +37,22 @@ const AboutMe = () => {
               <li className="flex space-x-4 items-center py-2">
                 <a href="https://www.instagram.com/nadzz_354?igsh=dTlxbmYydHRnZXE4">
                   <button className="btn btn-ghost opacity-90 w-20">
-                    <img src="src/assets/instagram.png" alt="Instagram" />
+                    <img src="src/assets/instagram.jpeg" alt="Instagram" />
                   </button>
                 </a>
                 <button className="btn btn-ghost opacity-90 w-20">
-                  <img src="src/assets/mail-inbox-app.png" alt="Mail" />
+                  <img src="src/assets/mail-inbox-app.jpeg" alt="Mail" />
                 </button>
                 <a href="https://wa.me/qr/2SSYSOLYRCFBO1">
                   <button className="btn btn-ghost opacity-90 w-20">
-                    <img src="src/assets/whatsapp.png" alt="Whatsapp" />
+                    <img src="src/assets/whatsapp.jpeg" alt="Whatsapp" />
                   </button>
                 </a>
               </li>
             </ul>
           </div>
           <img
-            src="src/assets/myPhoto2.jpg"
+            src="src/assets/myPhoto2.jpeg"
             className="max-w-sm rounded-lg shadow-2xl"
             alt="Profile"
           />
