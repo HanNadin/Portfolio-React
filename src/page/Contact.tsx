@@ -48,7 +48,7 @@ const Contact = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <p>32, Avenue de New York, 321904 New York</p>
+              <p>jl. Sanggar Kencana XXV no.11a-23</p>
             </div>
 
             <div className="flex items-center">
@@ -61,7 +61,7 @@ const Contact = () => {
                 <path d="M2.5 3A1.5 1.5 0 001 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0115 5.293V4.5A1.5 1.5 0 0013.5 3h-11Z" />
                 <path d="M15 6.954 8.978 9.86a2.25 2.25 0 01-1.956 0L1 6.954V11.5A1.5 1.5 0 002.5 13h11a1.5 1.5 0 001.5-1.5V6.954Z" />
               </svg>
-              <p>hello@loremlipsum.com</p>
+              <p>eranadinep@gmail.com</p>
             </div>
 
             <div className="flex items-center">
@@ -73,7 +73,7 @@ const Contact = () => {
               >
                 <path d="M2 8a8 8 0 1016 0A8 8 0 002 8zm4.293 2.707a1 1 0 011.414 0L10 9.414l2.293 2.293a1 1 0 001.414-1.414l-2.5-2.5a1 1 0 00-1.414 0l-2.5 2.5a1 1 0 010 1.414z" />
               </svg>
-              <p>+3356 1589 2100</p>
+              <p>+62 812 2197 2695</p>
             </div>
           </div>
         </div>

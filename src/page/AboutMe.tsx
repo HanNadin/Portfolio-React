@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="hero-content flex-col lg:flex-row justify-between w-full">
           <div className="text-left text-white">
             <h1 className="text-[#ECF0F1] text-5xl font-bold opacity-90">About Me</h1>
-            <p className="py-3 text-lg opacity-70 font-bold">Hallo</p>
+            <p className="py-3 text-lg opacity-70 font-bold"></p>
             <ul className="font-bold text-xl">
               {/* Details */}
               <li className="flex items-center py-2">
