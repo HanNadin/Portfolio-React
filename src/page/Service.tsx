@@ -1,10 +1,3 @@
-import feImage from '/src/assets/fe.jpeg';
-import beImage from '/src/assets/be.jpeg';
-import uiImage from '/src/assets/ui.jpeg';
-import uxImage from '/src/assets/ux.jpeg';
-import socialImage from '/src/assets/social.jpeg';
-import customImage from '/src/assets/bgHome.jpeg'; // New image for the 6th card
-
 const Service = () => {
   return (
     <>
@@ -13,11 +6,10 @@ const Service = () => {
         <div className="w-full flex items-center justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
             
-            {/* Card 1: Front-End Developing */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={feImage}
+                  src="/assets/fe.jpeg"
                   alt="Front-End Developing"
                   className="object-cover w-full h-full"
                 />
@@ -28,11 +20,10 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 2: Back-End Developing */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={beImage}
+                  src="/assets/be.jpeg"
                   alt="Back-End Developing"
                   className="object-cover w-full h-full"
                 />
@@ -43,11 +34,10 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 3: UI Designs */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={uiImage}
+                  src="/assets/ui.jpeg"
                   alt="UI Designs"
                   className="object-cover w-full h-full"
                 />
@@ -58,11 +48,10 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 4: UX Design */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={uxImage}
+                  src="/assets/ux.jpeg"
                   alt="UX Design"
                   className="object-cover w-full h-full"
                 />
@@ -73,11 +62,10 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 5: Social Media Management */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={socialImage}
+                  src="/assets/social.jpeg"
                   alt="Social Media Management"
                   className="object-cover w-full h-full"
                 />
@@ -88,11 +76,10 @@ const Service = () => {
               </div>
             </div>
 
-            {/* Card 6: Custom Solutions */}
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src={customImage}
+                  src="/assets/bgHome.jpeg"
                   alt="Custom Solutions"
                   className="object-cover w-full h-full"
                 />
