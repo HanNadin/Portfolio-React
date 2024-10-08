@@ -70,7 +70,7 @@ const Navbar = () => {
       <div className="flex-none">
         {/* Use Link component from react-scroll for the Contacts button */}
         <Link
-          to="contact" // The id of your contact section
+          to="contact" // This must match the id of the section
           spy={true}
           smooth={true}
           offset={-64} // Adjust as needed

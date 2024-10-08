@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="hero min-h-screen bg-[url('/src/assets/bgHome3.jpeg')] bg-cover bg-center bg-opacity-50 relative"
+      className="hero min-h-screen bg-[url('/assets/bgHome3.jpeg')] bg-cover bg-center bg-opacity-50 relative"
     >
       {/* Overlay to darken background for better text visibility */}
       <div className="absolute inset-0 bg-[#2C3E50] opacity-60"></div>

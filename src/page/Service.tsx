@@ -79,14 +79,14 @@ const Service = () => {
             <div className="card card-compact bg-[#1A252F] w-52 sm:w-60 shadow-xl rounded-lg">
               <figure className="h-40">
                 <img
-                  src="/assets/bgHome.jpeg"
+                  src="/assets/database.jpeg"
                   alt="Custom Solutions"
                   className="object-cover w-full h-full"
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title text-[#ECF0F1] text-lg">Custom Solutions</h2>
-                <p className="text-[#ECF0F1] text-sm">Tailoring web solutions to meet your specific needs.</p>
+                <h2 className="card-title text-[#ECF0F1] text-lg">Database Management and Optimization</h2>
+                <p className="text-[#ECF0F1] text-sm">Optimizing relational and non-relational databases for performance.</p>
               </div>
             </div>
 

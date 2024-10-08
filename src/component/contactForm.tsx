@@ -31,15 +31,15 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full h-[calc(100vh-4rem)] flex items-center justify-center bg-[#2C3E50] py-12">
+    <div id="contact"className="w-full h-[calc(100vh-4rem)] flex items-center justify-center bg-[#2C3E50] py-12">
       <div className="bg-white shadow-lg rounded-lg flex max-w-4xl w-full h-[calc(100%-4rem)]">
         {/* Left Side: Contact Info */}
         <div className="bg-[#34495E] text-white p-8 w-1/3 rounded-l-lg">
           <h2 className="text-2xl font-bold mb-6">Contact Us</h2>
           <div className="space-y-4">
-            <p>32, Avenue de New York, 321904 New York</p>
-            <p>hello@loremlipsum.com</p>
-            <p>+3356 1589 2100</p>
+            <p>Jl. Sanggar Kencana XXV no.11a-23</p>
+            <p>eranadinep@gmail.com</p>
+            <p>+62 812 2197 2695</p>
           </div>
         </div>
 
