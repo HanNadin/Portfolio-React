@@ -41,9 +41,11 @@ const AboutMe = () => {
                     <img src="/assets/instagram.jpeg" alt="Instagram" />
                   </button>
                 </a>
+                <a href="https://github.com/HanNadin">
                 <button className="btn btn-ghost opacity-90 w-20">
-                  <img src="/assets/mail.jpeg" alt="Mail" />
+                  <img src="/assets/github.jpeg" alt="github" />
                 </button>
+                </a>
                 <a href="https://wa.me/qr/2SSYSOLYRCFBO1">
                   <button className="btn btn-ghost opacity-90 w-20">
                     <img src="/assets/whatsapp.png" alt="Whatsapp" />
